@@ -1,0 +1,58 @@
+2023-10-05 16:37:57.960  INFO 2100 --- [main] com.sb.app.SprintBootApplication         : Starting SprintBootApplication using Java 1.8.0_202 on sivaramakrishna with PID 2100 (C:\Users\Dell\project\Intelij IDE_Spring boot\SB_1\target\classes started by Dell in C:\Users\Dell\project\Intelij IDE_Spring boot\SB_1)
+2023-10-05 16:37:57.983  INFO 2100 --- [main] com.sb.app.SprintBootApplication         : No active profile set, falling back to default profiles: default
+2023-10-05 16:38:03.413  INFO 2100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 16:38:03.777  INFO 2100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 325 ms. Found 1 JPA repository interfaces.
+2023-10-05 16:38:07.430  INFO 2100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-10-05 16:38:07.457  INFO 2100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-05 16:38:07.458  INFO 2100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-10-05 16:38:07.461  INFO 2100 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-10-05 16:38:07.462  INFO 2100 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-10-05 16:38:07.463  INFO 2100 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-05 16:38:07.486  INFO 2100 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-10-05 16:38:07.887  INFO 2100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-05 16:38:07.887  INFO 2100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9504 ms
+2023-10-05 16:38:09.733  INFO 2100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-05 16:38:09.919  INFO 2100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-10-05 16:38:10.390  INFO 2100 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-05 16:38:10.852  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-05 16:38:10.861  WARN 2100 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-05 16:38:12.608  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-05 16:38:12.771  INFO 2100 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-05 16:38:15.830  INFO 2100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 16:38:15.852  INFO 2100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-05 16:38:18.322  WARN 2100 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-05 16:38:18.936  INFO 2100 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-05 16:38:20.058  INFO 2100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2023-10-05 16:38:20.922  INFO 2100 --- [main] com.sb.app.SprintBootApplication         : Started SprintBootApplication in 24.651 seconds (JVM running for 27.051)
+2023-10-05 16:38:21.476  INFO 2100 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-05 16:38:21.487  INFO 2100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-05 16:38:21.516  INFO 2100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-05 16:40:10.723  INFO 11884 --- [main] com.sb.app.SprintBootApplication         : Starting SprintBootApplication using Java 1.8.0_202 on sivaramakrishna with PID 11884 (C:\Users\Dell\project\Intelij IDE_Spring boot\SB_1\target\classes started by Dell in C:\Users\Dell\project\Intelij IDE_Spring boot\SB_1)
+2023-10-05 16:40:10.732  INFO 11884 --- [main] com.sb.app.SprintBootApplication         : No active profile set, falling back to default profiles: default
+2023-10-05 16:40:14.888  INFO 11884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 16:40:15.198  INFO 11884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 274 ms. Found 1 JPA repository interfaces.
+2023-10-05 16:40:17.698  INFO 11884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-10-05 16:40:17.725  INFO 11884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-05 16:40:17.727  INFO 11884 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-10-05 16:40:17.730  INFO 11884 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-10-05 16:40:17.731  INFO 11884 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-10-05 16:40:17.732  INFO 11884 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-10-05 16:40:17.752  INFO 11884 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-10-05 16:40:18.168  INFO 11884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-05 16:40:18.171  INFO 11884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7276 ms
+2023-10-05 16:40:19.664  INFO 11884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-05 16:40:20.090  INFO 11884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-10-05 16:40:20.560  INFO 11884 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-05 16:40:20.869  INFO 11884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-05 16:40:20.876  WARN 11884 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-05 16:40:22.244  INFO 11884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-05 16:40:22.321  INFO 11884 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-05 16:40:24.236  INFO 11884 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 16:40:24.261  INFO 11884 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-05 16:40:27.041  WARN 11884 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-05 16:40:27.890  INFO 11884 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-05 16:40:29.129  INFO 11884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2023-10-05 16:40:29.852  INFO 11884 --- [main] com.sb.app.SprintBootApplication         : Started SprintBootApplication in 20.695 seconds (JVM running for 22.529)
+2023-10-05 18:35:04.566  WARN 11884 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h53m42s216ms200µs100ns).
+2023-10-05 21:12:57.713  WARN 11884 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m58s823ms493µs600ns).
+2023-10-05 21:14:17.909  WARN 11884 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s408ms708µs500ns).
